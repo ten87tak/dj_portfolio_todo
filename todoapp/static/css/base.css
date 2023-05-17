@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(239, 206, 213);
+    /* font-family: 'Mochiy Pop P One', sans-serif; */
+    /* font-family: 'Potta One', cursive; */
+    font-family: 'Yomogi', cursive;
+    margin-top: 120px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.todoAppWrapper {
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: rgb(248, 229, 233);
+    box-shadow: 5px 8px 21px 5px #a2a0a0;
+    border-radius: 70px;
+}
+
+a {
+    color: rgb(29, 121, 213);
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(249,192,217);
+    background: radial-gradient(circle, rgba(249,192,217,1) 0%, rgba(250,203,203,1) 100%);
+    border-radius: 70px 70px 0 0;
+    color: rgb(81, 81, 81);
+}
+
+.taskWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid rgba(128, 128, 128, 0.528);
+}
+
+.taskTitle {
+    display: flex;
+    align-items: center;
+}
+
+.taskCompletedIcon {
+    height: 20px;
+    width: 20px;
+    background-color: salmon;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+s {
+    color: salmon;
+}
+
+.taskIncompletedIcon {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(29, 121, 213);
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;    
+}
+
+.loginAndLogout {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.loginAndLogout a {
+    color: rgb(247, 43, 84);
+    justify-content: center;
+}
+
+/* .editButton {
+    color: salmon
+} */
+
+.deleteButton {
+    color:rgb(169, 117, 117);
+}
+
+.searchWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    /* align-items: center; */
+}
+
+.searchInput {
+    height: 32px;
+    outline: none;
+    border: 1px solid rgb(181, 143, 143);
+    border-radius: 8px;
+    margin-left: 20px;
+    /* padding: 2px 4px; */
+    width: 200px !important;
+}
+
+.searchButton {
+    /* height: 32px; */
+    /* width: 120px; */
+    border: 1px solid rgb(237, 120, 145);
+    border-radius: 8px;
+    padding: 0 10px 5px 10px;
+    background-color: rgb(242, 239, 235);
+    color: rgb(237, 120, 145);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Yomogi', cursive;
+    transition: all 0.3s;
+}
+
+.searchButton:hover {
+    background-color: rgb(237, 120, 145);
+    color: rgb(242, 239, 235);
+}
+
+.addButton {
+    font-size: 30px;
+}
+
+.displayAll {
+    color: rgb(237, 120, 145);
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 3px 10px;
+}
+
+.addTask {
+    margin: 5px 0 0 0;
+    font-size: 2em;
+}
+
+.back {
+    display: flex;
+    padding: 0 0 0 30px;
+}
+
+label {
+    display: block;
+
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+} 
+
+.deleteConfirmation {
+    display: flex;
+    justify-content: center;
+}
+
+.separation {
+    height: 1px;
+    background-color: #91909062;
+    border: none;
+    padding: 0 20px;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.signupMessage {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.signupLink {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+    padding: 0 0 30px 0;
+}
+
+.signupLink:hover {
+    color: rgb(237, 120, 145);
+    font-size: 26px;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+}
+
+span, ul {
+    font-size: 16px;
+    display: none;
+}
+
+h3 {
+    margin-left: 30px;
+}

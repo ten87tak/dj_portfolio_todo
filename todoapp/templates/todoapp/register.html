@@ -1,0 +1,23 @@
+{% extends 'todoapp/base.html' %}
+{% block content %}
+
+<div class="header">
+  <h1>新規登録</h1>
+</div>
+
+<form action="" method="POST" style="padding: 0 70px;">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="登録" class="searchButton">
+</form>
+
+<hr class="separation">
+
+<div class="signupMessage">
+  <p>既にアカウントを持っていますか？</p>
+</div>
+<div>
+  <a href="{% url 'login' %}" class="signupLink">ログイン</a>
+</div>
+
+{% endblock content %}
