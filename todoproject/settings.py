@@ -69,6 +69,7 @@ DATABASES = {
     }
 }
 
+
 # STATICFILES_ROOT = BASE_DIR / "static"
 
 # Password validation
