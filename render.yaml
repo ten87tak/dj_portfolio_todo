@@ -4,3 +4,13 @@ services:
     env:
       - key: DJANGO_SETTINGS_MODULE
         value: "todoproject.settings"
+  
+  - name: dj_todo_db
+    type: postgres
+    env:
+      - key: POSTGRES_DB
+        value: "todoapp"
+      - key: POSTGRES_USER
+        value: "postgres"
+      - key: POSTGRES_PASSWORD
+        value: "lvtenka1"
