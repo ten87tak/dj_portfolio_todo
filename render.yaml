@@ -1,0 +1,6 @@
+services:
+  - name: my-todo-app
+    type: web
+    env:
+      - key: DJANGO_SETTINGS_MODULE
+        value: "todoproject.settings"
